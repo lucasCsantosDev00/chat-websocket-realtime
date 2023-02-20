@@ -16,7 +16,7 @@ import AuthMiddleware from './middlewares/auth.js'
 import routes from "./routes/router.js";
 import cors from "cors";
 
-const port = process.env.PORT
+const port = process.env.PORT || 3000;
 
 const app = express();
 
