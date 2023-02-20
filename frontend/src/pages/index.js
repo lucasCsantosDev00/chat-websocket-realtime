@@ -2,7 +2,7 @@
 import Router from "next/router";
 import { useState } from "react";
 
-const API_URL = process.env.API_URL
+const API_URL = process.env.API_URL || 'http://localhost:3000';
 
 export default function Home() {
   const [email, setEmail] = useState("");
