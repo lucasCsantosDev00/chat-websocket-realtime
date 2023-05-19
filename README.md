@@ -18,8 +18,8 @@ Em /frontend:
 Endpoints da api:
 Método    | Rota     | Parâmetros            | 
 --------- | ---------| ----------------------|
-POST      | register | name, email, password |         
-GET       | login    | email, password       |             
+POST      | /register| name, email, password |         
+POST      | /login   | email, password       |             
 
 Endpoints do client:
 
